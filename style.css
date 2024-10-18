@@ -77,12 +77,12 @@ header {
 
 /* style home page */
 img{
-    margin-left: 55%;
-    margin-top: 60px;
+    margin-left: 50%;
+    margin-top: 160px;
 }
 
 .empower{
-    margin-top: -390px;
+    margin-top: -590px;
     margin-left: 80px;
     font-weight: bolder;
     font-size: 2.3em;
@@ -316,9 +316,11 @@ img{
     
         .text-container {
             margin-left: 0;
-            font-size: 0.9em;
+            text-align: start;
+            font-size: 0.em;
             padding: 0 10px; /* Add padding for better readability */
-            text-align: center; /* Center text on small screens */
+            text-align: start; /* Center text on small screens */
+            margin-right: -52px;
         }
     
         .connect-btn {
@@ -330,7 +332,7 @@ img{
         .text-container2 {
             margin-left: 0;
             padding: 0 10px;
-            text-align: center;
+            text-align: start;
         }
     
         .empower2 {
@@ -371,4 +373,19 @@ img{
             width: 100%;
             display: block;
         }
+
+        .view-container{
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-left: 0;
+            text-align: center;
+        }
+        #portfolio{
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-left: 0;
+            text-align: center;
+        }
     }
+
+   
